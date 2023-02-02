@@ -1,0 +1,266 @@
+/* Author: Aswathy */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	line-height: 1.5;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 0;
+}
+
+.placement_img {
+	width: 50%;
+}
+
+.banner {
+	background-image: url("../image/academy-banner.jpg");
+	background-size: cover;
+	background-color: #bcc2cadc;
+	width: 100%;
+	height: 100vh;
+	color: #1e2531;
+	font-family: "Roboto", sans-serif;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-end;
+	text-align: right;
+	font-size: 60px;
+	padding-right: 60px;
+	gap: 40px;
+}
+
+.banner_head {
+	width: 50%;
+}
+
+.part {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 80px;
+}
+
+.placement {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	position: relative;
+	padding: 60px 100px;
+}
+
+.placement_point {
+	position: absolute;
+	right: 6%;
+}
+
+.point {
+	color: rgb(97, 194, 233);
+	font-size: 28px;
+	padding: 15px 30px;
+	background-color: #1e2531;
+	font-weight: bolder;
+}
+
+/* .point:first-letter {
+	color: rgb(255, 0, 221);
+} */
+
+span {
+	color: rgb(255, 0, 98);
+}
+
+.part_content {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 20px;
+	text-align: center;
+	width: 80%;
+}
+
+.courses {
+	background-image: url("../image/modulebg.jpg");
+	background-size: contain;
+	width: 100%;
+	height: 90vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 2%;
+	padding: 13% 5%;
+	margin-bottom: 50px;
+}
+
+.courses div {
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.596);
+	padding: 10px 70px;
+	border-radius: 10px;
+}
+
+.test {
+	width: 100%;
+	height: 65vh;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.test_div1 {
+	width: 50%;
+	background-image: url("../image/testsbg.jpg");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.test_div2 {
+	width: 50%;
+	background-image: url("../image/intrvwbg.jpg");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	background-color: rgba(6, 8, 11, 0.7);
+	width: 90%;
+	height: 85%;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 150px;
+}
+
+.join {
+	margin-top: 8%;
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+}
+
+.join_container {
+	width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.join_container h1 {
+	font-size: 45px;
+	font-family: sans-serif;
+	font-weight: 700;
+	color: #181e22;
+}
+
+.button_div {
+	margin: 5%;
+}
+
+.button {
+	color: #f26422;
+	border: solid 2px;
+	padding: 10px 60px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+	text-decoration: none;
+	margin: 20%;
+}
+
+.end {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.end_container {
+	width: 25%;
+	gap: 20px;
+}
+
+.end_container p {
+	margin: 10px 0;
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		min-width: 0;
+	}
+	.banner {
+		background-image: url("../image/academy-banner.jpg");
+		background-size: contain;
+
+		background-repeat: no-repeat;
+
+		font-size: 18px;
+	}
+
+	.placement_img {
+		width: 100%;
+	}
+
+	.placement {
+		display: block;
+		width: 100vh;
+	}
+
+	.placement_point {
+		display: block;
+		margin-bottom: 10px;
+		position: static;
+	}
+
+	.point {
+		font-size: 15px;
+		width: 100%;
+		text-align: center;
+	}
+	/* .part_content {
+		display: block;
+	} */
+
+	.test {
+		height: fit-content;
+	}
+
+	.test_div1,
+	.test_div2 {
+		display: block;
+		width: 100%;
+	}
+	.content {
+		width: 100%;
+	}
+
+	.join {
+		display: block;
+	}
+
+	.join_container {
+		display: block;
+	}
+
+	.join_container h1 {
+		font-size: 35px;
+	}
+	.end_container {
+		width: 40%;
+		gap: 20px;
+	}
+
+	.end_container p {
+		/* font-size: 12px; */
+		margin: 10px 0;
+	}
+}
