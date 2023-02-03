@@ -199,7 +199,7 @@ span {
 	margin: 10px 0;
 }
 
-@media screen and (max-width: 567px) and (min-width: 345px) {
+@media screen and (max-width: 576px) and (min-width: 345px) {
 	.container {
 		min-width: 0;
 		width: 100%;
