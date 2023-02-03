@@ -197,6 +197,7 @@
 }
 
 .copyright {
+	margin: 30px;
 	text-align: center;
 }
 
@@ -248,6 +249,7 @@
 
 	.join {
 		display: block;
+		height: fit-content;
 	}
 
 	.join_container {
